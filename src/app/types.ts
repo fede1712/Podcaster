@@ -14,3 +14,34 @@ export interface Podcast {
 }
 
 export type image = { label: string; attributes: { height: string } };
+
+export interface Episode {
+  country: string;
+  artworkUrl160: string;
+  episodeFileExtension: string;
+  episodeContentType: string;
+  artworkUrl600: string;
+  collectionViewUrl: string;
+  trackTimeMillis: number;
+  shortDescription: string;
+  closedCaptioning: string;
+  collectionId: number;
+  collectionName: string;
+  genres: genres[];
+  episodeGuid: string;
+  description: string;
+  releaseDate: string;
+  previewUrl: string;
+  trackId: number;
+  trackName: string;
+  feedUrl: string;
+  artistIds: [];
+  episodeUrl: string;
+  artworkUrl60: string;
+  contentAdvisoryRating: string;
+  trackViewUrl: string;
+  kind: string;
+  wrapperType: string;
+}
+
+export type genres = { name: string; id: string };

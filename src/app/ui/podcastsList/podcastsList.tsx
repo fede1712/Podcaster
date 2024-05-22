@@ -16,7 +16,13 @@ export const PodcastsList = ({ data }: { data: Podcast[] }) => {
         {results.map((podcast: Podcast) => {
           const correctImg = podcast["im:image"][podcast["im:image"].length - 1];
           return (
-            <PodcastCard key={podcast.id.attributes["im:id"]} author={podcast["im:artist"].label} title={podcast["im:name"].label} src={correctImg} />
+            <PodcastCard
+              key={podcast.id.attributes["im:id"]}
+              author={podcast["im:artist"].label}
+              title={podcast["im:name"].label}
+              src={correctImg}
+              podcastId={podcast.id.attributes["im:id"]}
+            />
           );
         })}
       </div>
