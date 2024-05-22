@@ -1,6 +1,6 @@
 export async function getPodcasts() {
   try {
-    const res = await fetch("https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1310/json", { next: { revalidate: 3600 } });
+    const res = await fetch("https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1310/json");
 
     return res.json();
   } catch (error) {

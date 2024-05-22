@@ -1,7 +1,7 @@
-import { getPodcastDetails } from "@/app/lib/data";
+import { getPodcastDetails } from "../../lib/data";
 
 export default async function PodcastDetails() {
-  const data = await getPodcastDetails("934552872");
+  const data = await getPodcastDetails("121");
 
   return <div>PodcastDetails</div>;
 }
