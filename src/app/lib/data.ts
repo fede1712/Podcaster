@@ -1,6 +1,8 @@
 export async function getPodcasts() {
   try {
-    const res = await fetch("https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1310/json");
+    const res = await fetch("https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1310/json", {
+      next: { revalidate: 86400 },
+    });
 
     return res.json();
   } catch (error) {
@@ -10,7 +12,9 @@ export async function getPodcasts() {
 
 export async function getPodcastDetails(id: string) {
   try {
-    const res = await fetch(`https://itunes.apple.com/lookup?id=${id}&media=podcastds&entity=podcastEpisode`);
+    const res = await fetch(`https://itunes.apple.com/lookup?id=${id}&media=podcastds&entity=podcastEpisode`, {
+      next: { revalidate: 86400 },
+    });
     return res.json();
   } catch (error) {
     console.error("Error fetching data", error);
