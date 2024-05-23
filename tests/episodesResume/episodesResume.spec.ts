@@ -12,5 +12,5 @@ test("Header renders correctly and link works", async ({ page }) => {
   await page.click("text=Podcaster");
 
   const url = page.url();
-  expect(url).toBe("http://localhost:3000/");
+  expect(url).toBe("http://localhost:3000/podcast/1535809341");
 });

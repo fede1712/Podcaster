@@ -31,7 +31,7 @@ export const Filter = ({
   };
 
   return (
-    <div className="flex justify-end m-14" data-testId="filter">
+    <div className="flex justify-end m-14">
       <div className="bg-cyan-600 rounded-md p-2 m-2">
         <p className="text-white">{results.length}</p>
       </div>

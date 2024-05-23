@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const EpisodesList = ({ data, podcastId }: { data: { results: Episode[] }; podcastId: string }) => {
   return (
-    <table className="table-auto border shadow-md mt-10 p-10 w-full">
+    <table className="table-auto border shadow-md mt-10 p-10 w-full" data-testid="episode-list">
       <thead>
         <tr className="grid grid-cols-10 justify-items-stretch w-full p-4 border-b-2">
           <th className="col-span-6 justify-self-start">Title</th>
