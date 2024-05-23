@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) and in this project, you can view the 100 most popular podcasts on iTunes, filter them by author name or podcast title and see the details of each one. On the other hand we can play the episodes we find of each podcast.
+This is a [Next.js](https://nextjs.org/) porject and in this app, you can view the 100 most popular podcasts on iTunes, filter them by author name or podcast title and see the details of each one. On the other hand we can play the episodes we find of each podcast.
 
 ## Getting Started
 
