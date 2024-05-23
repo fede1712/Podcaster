@@ -1,3 +1,4 @@
+import React from "react";
 import { image } from "@/app/types";
 import Image from "next/image";
 import Link from "next/link";

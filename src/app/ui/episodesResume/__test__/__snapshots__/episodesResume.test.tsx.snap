@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders episode resume correctly 1`] = `
+<DocumentFragment>
+  <p
+    class="border shadow-md p-4 font-bold"
+  >
+    Episodes: 10
+  </p>
+</DocumentFragment>
+`;

@@ -1,7 +1,8 @@
-import { PodcastDetailCard } from "@/app/ui/podcastDetailCard/podcastDetailCard";
+import React from "react";
+import { PodcastDetailCard } from "../../ui/podcastDetailCard/podcastDetailCard";
 import { getPodcastDetails, getPodcasts } from "../../lib/data";
-import { EpisodesResume } from "@/app/ui/episodesResume/episodesResume";
-import { EpisodesList } from "@/app/ui/episodesList/episodesList";
+import { EpisodesResume } from "../../ui/episodesResume/episodesResume";
+import { EpisodesList } from "../../ui/episodesList/episodesList";
 import { Podcast } from "@/app/types";
 
 export default async function PodcastDetails({ params }: { params: { podcastId: string } }) {

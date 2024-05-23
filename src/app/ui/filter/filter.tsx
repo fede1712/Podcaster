@@ -1,3 +1,5 @@
+import React from "react";
+
 import { Podcast } from "@/app/types";
 
 export const Filter = ({

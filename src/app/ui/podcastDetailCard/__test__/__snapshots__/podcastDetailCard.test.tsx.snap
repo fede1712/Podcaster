@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders PodcastDetailCard correctly should render PodcastDetailCard 1`] = `
+<DocumentFragment>
+  <div
+    class="border shadow-xl "
+  >
+    <div>
+      <div
+        class="flex justify-center border-b-2 p-8"
+      >
+        <a
+          href="/podcast/1"
+        >
+          <img
+            alt="Test collection name"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="200"
+            src="/_next/image?url=http%3A%2F%2Fexample.com%2Fartwork.jpg&w=640&q=75"
+            srcset="/_next/image?url=http%3A%2F%2Fexample.com%2Fartwork.jpg&w=256&q=75 1x, /_next/image?url=http%3A%2F%2Fexample.com%2Fartwork.jpg&w=640&q=75 2x"
+            style="color: transparent;"
+            width="200"
+          />
+        </a>
+      </div>
+      <section
+        class="p-8 border-b-2"
+      >
+        <a
+          href="/podcast/1"
+        >
+          <h3
+            class="font-bold"
+          >
+            Test collection name
+          </h3>
+        </a>
+        <p
+          class="italic"
+        >
+          by Test artist name
+        </p>
+      </section>
+      <section
+        class="p-8"
+      >
+        <h3
+          class="font-bold"
+        >
+          Description:
+        </h3>
+        <p
+          class="text-sm text-left italic break-words"
+        >
+          Podcast summary test
+        </p>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

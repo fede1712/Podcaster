@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders header correctly should render header correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="flex justify-between border-b-4 m-10 "
+  >
+    <a
+      href="/"
+    >
+      <h1
+        class="text-cyan-600 text-xl  font-bold"
+      >
+        Podcaster
+      </h1>
+    </a>
+  </header>
+</DocumentFragment>
+`;

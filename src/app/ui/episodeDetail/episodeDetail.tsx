@@ -1,3 +1,4 @@
+import React from "react";
 import { Episode } from "@/app/types";
 
 export const EpisodeDetail = ({ actualEpisode }: { actualEpisode: Episode }) => {

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders filter correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-end m-14"
+  >
+    <div
+      class="bg-cyan-600 rounded-md p-2 m-2"
+    >
+      <p
+        class="text-white"
+      >
+        1
+      </p>
+    </div>
+    <input
+      class="p-2 border rounded-md"
+      placeholder="Filter podcast..."
+      type="text"
+    />
+  </div>
+</DocumentFragment>
+`;

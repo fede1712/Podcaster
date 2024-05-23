@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { PodcastCard } from "../podcastCard/podcastCard";
 import { Filter } from "../filter/filter";
 import { Podcast } from "@/app/types";

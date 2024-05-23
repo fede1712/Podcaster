@@ -1,3 +1,4 @@
+import React from "react";
 import { Episode } from "@/app/types";
 import Image from "next/image";
 import Link from "next/link";
