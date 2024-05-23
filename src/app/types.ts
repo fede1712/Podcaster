@@ -18,4 +18,5 @@ export interface Episode {
   trackName: string;
   episodeUrl: string;
   artistName: string;
+  releaseDate: string;
 }
