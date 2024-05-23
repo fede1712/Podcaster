@@ -1,4 +1,3 @@
-import React from "react";
 import { PodcastDetailCard } from "../../ui/podcastDetailCard/podcastDetailCard";
 import { getPodcastDetails, getPodcasts } from "../../lib/data";
 import { EpisodesResume } from "../../ui/episodesResume/episodesResume";

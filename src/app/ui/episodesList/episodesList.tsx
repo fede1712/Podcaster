@@ -1,4 +1,3 @@
-import React from "react";
 import { Episode } from "@/app/types";
 import Link from "next/link";
 

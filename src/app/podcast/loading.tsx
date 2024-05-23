@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Loading() {
   return (
     <span className="absolute top-10 right-20" data-testid="loading">
