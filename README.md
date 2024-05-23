@@ -27,3 +27,29 @@ npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Runing test
+
+First, build the project 🧱🔨:
+
+```bash
+npm run build
+```
+
+Then, run the project in production server 🚀:
+
+```bash
+npm run start
+```
+
+Finally, run E2E test ✅:
+
+```bash
+npx playwright test
+```
+
+If you want to see test report 📋:
+
+```bash
+ npx playwright show-report
+```
