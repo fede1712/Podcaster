@@ -1,7 +1,7 @@
 import { Episode } from "@/app/types";
 import Link from "next/link";
 
-export const EpisodesList = ({ data, podcastId }: { data: any; podcastId: string }) => {
+export const EpisodesList = ({ data, podcastId }: { data: { results: Episode[] }; podcastId: string }) => {
   return (
     <table className="table-auto border shadow-md mt-10 p-10 w-full">
       <thead>

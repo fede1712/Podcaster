@@ -9,7 +9,7 @@ export const PodcastDetailCard = ({ data, summary, podcastId }: { data: Episode;
         <div>
           <div className="flex justify-center border-b-2 p-8">
             <Link href={`/podcast/${podcastId}`}>
-              <Image alt="asas" src={data.artworkUrl600} width={200} height={200} />
+              <Image alt={data.collectionName} src={data.artworkUrl600} width={200} height={200} priority={true} />
             </Link>
           </div>
           <section className="p-8 border-b-2">

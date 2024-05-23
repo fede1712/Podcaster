@@ -1,6 +1,4 @@
-import Loading from "@/app/podcast/loading";
 import Link from "next/link";
-import { Suspense } from "react";
 
 export const Header = () => {
   return (

@@ -1,3 +1,8 @@
 export default function Loading() {
-  return <div className="rounded-full w-4 h-4 bg-cyan-600  absolute top-10 right-20" />;
+  return (
+    <span className="absolute top-10 right-20">
+      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+    </span>
+  );
 }

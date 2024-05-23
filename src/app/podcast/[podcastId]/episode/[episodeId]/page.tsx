@@ -1,5 +1,5 @@
 import { getPodcastDetails, getPodcasts } from "@/app/lib/data";
-import { Podcast } from "@/app/types";
+import { Episode, Podcast } from "@/app/types";
 import { EpisodeDetail } from "@/app/ui/episodeDetail/episodeDetail";
 import { PodcastDetailCard } from "@/app/ui/podcastDetailCard/podcastDetailCard";
 
@@ -14,8 +14,8 @@ export default async function EpisodeDetails({ params }: { params: { podcastId: 
     }
   });
 
-  const actualEpisode = data.results.filter((episode: any) => {
-    if (episode.trackId == params.episodeId) {
+  const actualEpisode = data.results.filter((episode: Episode) => {
+    if (episode.trackId === Number(params.episodeId)) {
       return episode;
     }
   });

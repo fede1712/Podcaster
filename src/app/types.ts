@@ -42,20 +42,20 @@ export interface Episode {
   trackViewUrl: string;
   kind: string;
   wrapperType: string;
-  genreIds?: string[];
-  primaryGenreName?: string;
-  currency?: string;
-  trackCount?: number;
-  trackExplicitness?: string;
-  artistName?: string;
-  collectionCensoredName?: string;
-  trackCensoredName?: string;
-  artworkUrl30?: string;
-  artworkUrl100?: string;
-  collectionPrice?: number;
-  trackPrice?: number;
-  collectionHdPrice?: number;
-  collectionExplicitness?: string;
+  genreIds: string[];
+  primaryGenreName: string;
+  currency: string;
+  trackCount: number;
+  trackExplicitness: string;
+  artistName: string;
+  collectionCensoredName: string;
+  trackCensoredName: string;
+  artworkUrl30: string;
+  artworkUrl100: string;
+  collectionPrice: number;
+  trackPrice: number;
+  collectionHdPrice: number;
+  collectionExplicitness: string;
 }
 
 export type genres = { name: string; id: string };
