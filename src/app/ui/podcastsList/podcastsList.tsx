@@ -12,7 +12,7 @@ export const PodcastsList = ({ data }: { data: Podcast[] }) => {
   return (
     <>
       <Filter data={data} results={results} setResults={setResults} setSearch={setSearch} search={search} />
-      <div className="grid grid-cols-4 gap-14 m-14">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-14 m-14">
         {results.map((podcast: Podcast) => {
           const correctImg = podcast["im:image"][podcast["im:image"].length - 1];
           return (

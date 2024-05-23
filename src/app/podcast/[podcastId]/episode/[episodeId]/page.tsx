@@ -21,7 +21,7 @@ export default async function EpisodeDetails({ params }: { params: { podcastId: 
   });
 
   return (
-    <div className="grid grid-cols-4 gap-4 m-14">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:m-14">
       <section>
         <PodcastDetailCard data={data.results[0]} summary={actualPodcast[0].summary.label} podcastId={params.podcastId} />
       </section>
