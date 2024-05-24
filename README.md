@@ -30,25 +30,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Runing test
 
-First, build the project 🧱🔨:
+First, install all dependencies 💻:
 
 ```bash
-npm run build
+npm install
 ```
 
-Then, run the project in production server 🚀:
+Then, you can run E2E test ✅:
 
 ```bash
-npm run start
+npm run test
 ```
 
-Finally, run E2E test ✅:
-
-```bash
-npx playwright test
-```
-
-If you want to see test report 📋:
+If you want to see tests report 📋:
 
 ```bash
  npx playwright show-report

@@ -7,7 +7,7 @@ export const PodcastCard = ({ src, title, author, podcastId }: { src: image; tit
     <Link href={`podcast/${podcastId}`} data-testid={`podcast-card-${podcastId}`}>
       <div className="border rounded-md p-4 shadow-xl">
         <div className="flex justify-center relative bottom-14">
-          <Image alt="cover" src={src.label} width={100} height={100} className="rounded-full" />
+          <Image alt={`cober-img-${title}`} src={src.label} width={100} height={100} className="rounded-full" />
         </div>
         <section className="flex justify-center">
           <h2 className="text-center">{title.toLocaleUpperCase()}</h2>
